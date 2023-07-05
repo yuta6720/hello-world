@@ -1,2 +1,4 @@
 # hello-world
-This is a first file.
+# 2023ソフトウェア工学演習
+2023/07/05
+git/github演習
