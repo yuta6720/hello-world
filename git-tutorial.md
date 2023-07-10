@@ -27,8 +27,29 @@ gitではブランチで作業内容を枝分かれさせることができ、�
 枝分かれ元と先は、コミット、マージを行わない限り枝分かれ元に統合・上書きされることはない。
 
 
+なお、gitで管理して欲しくないデータを個別設定することができ、.gitignoreファイルに対象ファイルの名前やパスを指定することで発動できる。
+
+
 
 # git commands
+・ git branch --set-upstream-to origin/main
+     : リモートブランチ（origin/main）と紐付ける設定
+・ git symbolic-ref HEAD refs/heads/main
+     : HEADを  mainと設定する
+
+※HEAD　: ローカルレポジトリの（今いるブランチ）での最新の状態
+
+・ git stash : 一時退避
+
+(originにあるindex.htmlとローカルのindex.htmlの比較)
+・ git diff origin -- index.html
+(一時退避)
+・ git stash
+(originからプル（同期）)
+・ git pull
+(一時退避したものの変更を加える)
+・ git stash pop
+
 
 ・ git init : gitの初期化、設定開始
 ・ git status : ワークツリーのステータスを表示
