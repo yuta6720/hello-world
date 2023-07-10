@@ -43,15 +43,19 @@ gitではブランチで作業内容を枝分かれさせることができ、�
 ・ git stash : 一時退避
 
 (originにあるindex.htmlとローカルのindex.htmlの比較)
+
 ・ git diff origin -- index.html
 
 (一時退避)
+
 ・ git stash
 
 (originからプル（同期）)
+
 ・ git pull
 
 (一時退避したものの変更を加える)
+
 ・ git stash pop
 
 
@@ -94,6 +98,7 @@ gitではブランチで作業内容を枝分かれさせることができ、�
 ・ git checkout : ブランチの切り替え
 
 ・ git merge : ブランチの統合
+
      --ff-only: fast forward only. 変更のない統合先ブランチにマージ（参考）
 
 ・ git clone : レポジトリをコピー
