@@ -12,8 +12,17 @@
 ・git reset : コミットのリセット
 ・git revert : 「コミットの変更を打ち消す」コミット
 ・git rm : ファイルとindex情報の削除
-・
-・
+・git clone : レポジトリをコピー
+・git pull : リモートレポジトリの同期	
+・git push : 変更をアップロードする
+・git request-pull : プルリクエスト：変更依頼
+・git remote : モートレポジトリの設定
+・git branch : ブランチの作成
+・git checkout : ブランチの切り替え
+・git merge : ブランチの統合
+    --ff-only: fast forward only. 変更のない統合先ブランチにマージ（参考）
+・git clone : レポジトリをコピー
+・git push : 変更をアップロードする
 ・
 ・
 ・
